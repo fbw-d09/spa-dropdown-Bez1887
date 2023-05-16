@@ -1,0 +1,56 @@
+* {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 40px;
+}
+header h1 {
+  font-size: 70px;
+
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+nav {
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  background: cornflowerblue;
+}
+
+ul li {
+  display: inline-block;
+  position: relative;
+  /* damit weiteren Optionen angezeigt werden */
+  line-height: 21px;
+  margin: 30px;
+  text-align: left;
+}
+
+ul li a {
+  padding: 8px 25px;
+  color: #333;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: red;
+}
+
+ul li ul.ausklappen {
+  background: whitesmoke;
+
+  position: absolute;
+
+  left: 0;
+}
+
+/* ul .navbar:hover .ausklappen {
+  display: block;
+}
+
+ul li ul.ausklappen li {
+  display: block;
+}
+ */
